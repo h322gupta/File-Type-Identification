@@ -1,0 +1,27 @@
+Predicted on 4396 files. Results are as follows:
+
+Confusion Matrix:
+52	0	0	3	0	0	0	0	
+0	16	0	0	0	0	0	0	
+1	0	112	1	0	0	0	0	
+1	0	1	115	6	2	0	0	
+1	0	0	0	1286	0	0	12	
+0	0	0	3	1	83	0	2	
+0	0	0	1	2	0	1319	7	
+0	0	0	0	8	0	4	1357	
+
+Classification Report
+              precision    recall  f1-score   support
+
+         cpp       0.95      0.95      0.95        55
+      groovy       1.00      1.00      1.00        16
+        java       0.99      0.98      0.99       114
+  javascript       0.93      0.92      0.93       125
+        json       0.99      0.99      0.99      1299
+      python       0.98      0.93      0.95        89
+         xml       1.00      0.99      0.99      1329
+         yml       0.98      0.99      0.99      1369
+
+    accuracy                           0.99      4396
+   macro avg       0.98      0.97      0.97      4396
+weighted avg       0.99      0.99      0.99      4396
